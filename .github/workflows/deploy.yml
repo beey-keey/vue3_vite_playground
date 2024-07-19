@@ -25,6 +25,6 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy
+        uses: peaceiris/actions-gh-pages@v3
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
