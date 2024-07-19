@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import material_image from "./assets/material.jpg";
 </script>
 
 <template>
-  <div></div>
-  <HelloWorld msg="Vite + Vue3 PLAYGROUND" />
-  <p>personal playground...</p>
+  <div>
+    <img alt="Vue logo" :src="material_image" />
+  </div>
 </template>
 
 <style scoped>

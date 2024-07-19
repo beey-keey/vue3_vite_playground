@@ -1,11 +1,20 @@
+<template>
+  <v-app>
+    <v-container>
+      <v-btn @click="showAlert">Click Me</v-btn>
+    </v-container>
+  </v-app>
+</template>
+
 <script setup lang="ts">
-defineProps<{ msg: string }>();
+import { ref } from "vue";
+import { VBtn, VContainer } from "vuetify/components";
+
+function showAlert() {
+  alert("Button clicked!");
+}
 </script>
 
-<template></template>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
+<style>
+@import "vuetify/styles";
 </style>
