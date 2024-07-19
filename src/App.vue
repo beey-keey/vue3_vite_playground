@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 <template>
   <div></div>
   <HelloWorld msg="Vite + Vue3 PLAYGROUND" />
-  <p>playground...</p>
+  <p>personal playground...</p>
 </template>
 
 <style scoped>
